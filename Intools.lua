@@ -1,6 +1,6 @@
 script_name('Inst Tools')
-script_version('1.5')
-script_version = "1.5"
+script_version('1.6')
+script_version = "1.6"
 script_author('Damien_Requeste, Roma_Mizantrop')
 local sf = require 'sampfuncs'                                                                           
 local key = require "vkeys"
@@ -1049,7 +1049,7 @@ end
  function uninvite(pam)
     lua_thread.create(function()
         local id, pri4ina = pam:match('(%d+)%s+(.+)')
-	  if rank == 'Ст.Менеджер' or rank == 'Директор' or  rank == 'Управляющий' then
+	  if rank == "Мл.Менеджер" or rank ==  'Ст.Менеджер' or rank == 'Директор' or  rank == 'Управляющий' then
         if id and pri4ina then
 		if sampIsPlayerConnected(id) then
                 sampSendChat('/me забрал(а) форму и бейджик у '..sampGetPlayerNickname(id):gsub('_', ' ')..'')
@@ -1062,7 +1062,7 @@ end
 			ftext('Введите: /uninvite [id] [причина]')
 		end
 		else 
-			ftext('Данная команда доступна с 8 ранга')
+			ftext('Данная команда доступна с 7 ранга')
 	  end
    end)
  end
