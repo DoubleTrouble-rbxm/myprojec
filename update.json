@@ -1,9 +1,9 @@
 { 
-"latest": "1.7 ", 
-"updateurl": "http://raw.githubusercontent.com/Misanthrope123/myprojec/master/Intools.lua", 
+"latest": "1.8 ", 
+"updateurl": "http://raw.githubusercontent.com/Misanthrope123/myprojec/master/Intools.luac", 
 "updlist": " 
 1. !ВНИМАНИЕ! Чтобы скрипт нормально работал. 
 Вам необходимо удалить файл config.ini в moonloader -> config -> в папке instools 
-2. - Обновлена команда /id - скрипт теперь не крашит.
-3. - Обновление не несёт каких либо ещё изменений." 
+2. - 2 стадия обновления скрипта.
+3. - Мы закрыли наш скрипт для будущих обновлений." 
 }
